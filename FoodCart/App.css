@@ -1,0 +1,276 @@
+/* body{
+    background-image: url(https://dbatu.ac.in/wp-content/uploads/2016/12/gallery-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    background-position: fixed;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    margin: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+.coming{
+    margin-top: 0;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    /* animation-timing-function: ease-out; */
+/* } */
+/* .space{
+    width:15%;
+    margin:auto;
+    margin-top: 140px;   
+}
+.days{
+    margin-top: 20px;
+    text-align: center;
+}
+.power{
+    font-size: 15px;
+    position: absolute;
+    left:10px ; */
+    /* bottom:10px;
+}
+@keyframes move{
+    from{
+        top: 0px;
+    }
+    to{
+        top:130px;
+    }
+} */ */
+
+
+
+/* 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #2874f0;
+    height: 70px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo h2 {
+    margin: 0;
+  }
+  
+  .explore {
+    font-size: 12px;
+    color: #ffe500;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .search-bar input {
+    width: 60%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    background-color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    
+  }
+  
+  .nav-links button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .categories span {
+    cursor: pointer;
+  } */
+  
+  /* .categories span:hover {
+    text-decoration: underline;
+  } */
+
+
+  /* .navbar {
+    background-color: #2874f0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 5px;
+  }
+  
+  .nav-links button {
+    background: none;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .product-list {
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .product-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .product-badge {
+    background: #ff9800;
+    color: white;
+    padding: 3px 5px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: inline-block;
+  } */
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 0 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .product {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+    padding: 10px; 
+    background-color: #f8f9fa; 
+  }
+  
+  .product > div {
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 280px; 
+    background-color: #fff; 
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out; 
+  }
+  
+  .product > div:hover {
+    transform: scale(1.05); 
+  }
+  
+  .img img {
+    width: 100%; 
+    height: 200px;
+    object-fit: cover; 
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  .details {
+    padding: 15px; 
+    text-align: center; 
+  }
+  
+  .details h3 {
+    font-size: 1.4em; 
+    margin-bottom: 10px; 
+    color: #333; 
+  }
+  
+  .details p {
+    font-size: 1.2em; 
+    margin-bottom: 15px; 
+    color: #007bff;
+  }
+  
+  .details button {
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 1em; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .details button:hover {
+    background-color: #218838; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  .btnRemove{
+    background-color: red !important; 
+  }
+  

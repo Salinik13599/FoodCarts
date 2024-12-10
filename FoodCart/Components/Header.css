@@ -1,0 +1,30 @@
+.navbar{
+    background-color: black;
+    display: flex;
+}
+
+.logo{
+color: white;
+font-size: 20px;
+}
+.navbar ul{
+    
+    display: inline-flex;
+    gap: 20px;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.cart-count{
+    background-color: yellowgreen;
+    padding: 5px;
+   display: inline-block;
+    height: 25px;
+    width: 20px;
+    text-align: center;
+}

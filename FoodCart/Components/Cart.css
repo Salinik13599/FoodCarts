@@ -1,0 +1,27 @@
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.cart-product{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border: 1px skyblue;
+}
+
+.cart-product .img{
+    width: 100px;
+    height: 100px;
+}
+
+.cart-product .img img{
+    width: 100px;
+    height: 100px;
+}
+
+.cart-heading{
+    font-size: 30px;
+    font-weight: 600;
+}
